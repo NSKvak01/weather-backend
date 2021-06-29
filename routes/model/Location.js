@@ -7,4 +7,5 @@ let locationSchema = new mongoose.Schema({
     },
 })
 
+
 module.exports = mongoose.model('locations', locationSchema)
